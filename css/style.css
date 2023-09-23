@@ -1,3 +1,6 @@
+body {
+  background: #bac4ce;
+}
 h1 {
   font-size: 48px;
 }
@@ -11,9 +14,15 @@ footer {
   text-align: center;
   display: block;
 }
+footer a {
+  margin-right: 20px;
+}
+.pastry {
+  padding: 20px;
+  display: flex;
+}
 .chocolate {
-  display: block;
   border-radius: 10px;
-  max-width: 100%;
-  margin: 30px 0;
+  max-width: 860px;
+  margin: auto;
 }
